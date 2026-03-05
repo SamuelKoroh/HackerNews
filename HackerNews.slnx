@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="HackerNews.Application.UnitTests/HackerNews.Application.UnitTests.csproj" />
+    <Project Path="HackerNews.Infrastructure.Tests/HackerNews.Infrastructure.UnitTests.csproj" />
+  </Folder>
+  <Project Path="HackerNews.API/HackerNews.API.csproj" />
+  <Project Path="HackerNews.Application/HackerNews.Application.csproj" />
+  <Project Path="HackerNews.Domain/HackerNews.Domain.csproj" />
+  <Project Path="HackerNews.Infrastructure/HackerNews.Infrastructure.csproj" />
+</Solution>
