@@ -2,12 +2,14 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/HackerNews.API/HackerNews.API.csproj" />
+    <Project Path="src/HackerNews.Application/HackerNews.Application.csproj" />
+    <Project Path="src/HackerNews.Domain/HackerNews.Domain.csproj" />
+    <Project Path="src/HackerNews.Infrastructure/HackerNews.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/Tests/">
     <Project Path="tests/HackerNews.Application.UnitTests/HackerNews.Application.UnitTests.csproj" />
     <Project Path="tests/HackerNews.Infrastructure.Tests/HackerNews.Infrastructure.UnitTests.csproj" />
   </Folder>
-  <Project Path="src/HackerNews.API/HackerNews.API.csproj" />
-  <Project Path="src/HackerNews.Application/HackerNews.Application.csproj" />
-  <Project Path="src/HackerNews.Domain/HackerNews.Domain.csproj" />
-  <Project Path="src/HackerNews.Infrastructure/HackerNews.Infrastructure.csproj" />
 </Solution>
