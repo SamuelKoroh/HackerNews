@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HackerNews.Application\HackerNews.Application.csproj" />
+    <ProjectReference Include="..\..\src\HackerNews.Application\HackerNews.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
