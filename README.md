@@ -26,6 +26,26 @@ Open your browser:
 https://localhost:7166/swagger
 ```
 
+## Running Tests
+Unit test projects are located in the Tests folder.
+## Run All Tests
+```bash 
+dotnet test
+```
+Run Tests for a Specific Project
+
+```bash
+dotnet test HackerNews.Application.UnitTests
+dotnet test HackerNews.Infrastructure.UnitTests
+```
+
+## Test Coverage
+Basic tests were written to cover
+- StoryService
+- Caching behavior
+- External API abstraction
+
+
 ## Features
 
 - Retrieves the best stories from Hacker News API.
