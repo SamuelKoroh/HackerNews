@@ -11,7 +11,7 @@ public class HackerNewsService(IHackerNewsApi api) : IHackerNewsService
         var ids = await api.GetBestStoryIds();
 
         var tasks = ids
-            .Take(100)
+            .Take(limit)
             .Select(api.GetItem);
 
         var items = await Task.WhenAll(tasks);
@@ -33,7 +33,6 @@ public class HackerNewsService(IHackerNewsApi api) : IHackerNewsService
                 Type = x.Type,
             })
             .OrderByDescending(x => x.Score)
-            .Take(limit)
             .ToList();
 
         return stories;
